@@ -14,7 +14,6 @@
 		652FBC2C21FD69B80022A8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652FBC2A21FD69B80022A8CF /* LaunchScreen.storyboard */; };
 		652FBC3421FD6ED10022A8CF /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FBC3321FD6ED10022A8CF /* resultViewController.swift */; };
 		BDE56A2421FD72EC0034BC52 /* surprise_party.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */; };
-		BDE56A2721FD795B0034BC52 /* friendspic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2621FD795B0034BC52 /* friendspic.jpg */; };
 		BDE56A2B21FD7AC60034BC52 /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2A21FD7AC60034BC52 /* city.jpg */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		652FBC2D21FD69B80022A8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652FBC3321FD6ED10022A8CF /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surprise_party.jpg; sourceTree = "<group>"; };
-		BDE56A2621FD795B0034BC52 /* friendspic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friendspic.jpg; sourceTree = "<group>"; };
 		BDE56A2A21FD7AC60034BC52 /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +67,6 @@
 				652FBC2A21FD69B80022A8CF /* LaunchScreen.storyboard */,
 				652FBC2D21FD69B80022A8CF /* Info.plist */,
 				652FBC3321FD6ED10022A8CF /* resultViewController.swift */,
-				BDE56A2621FD795B0034BC52 /* friendspic.jpg */,
 				BDE56A2521FD75730034BC52 /* images */,
 			);
 			path = IOSApp;
@@ -143,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				652FBC2C21FD69B80022A8CF /* LaunchScreen.storyboard in Resources */,
-				BDE56A2721FD795B0034BC52 /* friendspic.jpg in Resources */,
 				BDE56A2421FD72EC0034BC52 /* surprise_party.jpg in Resources */,
 				652FBC2921FD69B80022A8CF /* Assets.xcassets in Resources */,
 				652FBC2721FD69B80022A8CF /* Main.storyboard in Resources */,
