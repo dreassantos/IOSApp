@@ -26,7 +26,7 @@ class resultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let eventList = events.eventList.shuffled()
+        let eventList = events.eventList
         setName(eventName: eventList[0].eventName)
         setImage(imageName: eventList[0].eventImageName)
         setDescription(eventDescription: eventList[0].eventDescription)
@@ -51,7 +51,7 @@ class resultViewController: UIViewController {
     
     @IBAction func noButton(_ sender: Any) {
         print("In no button")
-        let eventList = events.eventList.shuffled()
+        let eventList = events.eventList
         if counter < eventList.count {
             setName(eventName: eventList[counter].eventName)
             setImage(imageName: eventList[counter].eventImageName)
@@ -77,7 +77,7 @@ class resultViewController: UIViewController {
         savedEvents.append(String(eventNameLabel.text!))
         statusLabel.text = "This event has been saved"
         if counter < events.eventList.count {
-        let eventList = events.eventList.shuffled()
+        let eventList = events.eventList
         setName(eventName: eventList[counter].eventName)
         setImage(imageName: eventList[counter].eventImageName)
         setDescription(eventDescription: eventList[counter].eventDescription)
