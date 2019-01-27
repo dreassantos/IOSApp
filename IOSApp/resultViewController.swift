@@ -17,6 +17,7 @@ class resultViewController: UIViewController {
     @IBOutlet weak var eventImage: UIImageView!
     @IBOutlet weak var eventNameLabel: UILabel!
     @IBOutlet weak var eventDescriptionLabel: UILabel!
+    @IBOutlet weak var statusLabel: UILabel!
     
     
     let events = Events()
@@ -29,6 +30,7 @@ class resultViewController: UIViewController {
         setName(eventName: eventList[0].eventName)
         setImage(imageName: eventList[0].eventImageName)
         setDescription(eventDescription: eventList[0].eventDescription)
+        statusLabel.isHidden = true
         print("in did load")
     }
     
@@ -55,8 +57,11 @@ class resultViewController: UIViewController {
             setImage(imageName: eventList[counter].eventImageName)
             setDescription(eventDescription: eventList[counter].eventDescription)
             counter += 1
+            statusLabel.isHidden = true
         } else {
-            savedEvents.append(String(eventNameLabel.text!))
+            
+            noButton.isHidden = true
+            yesButton.isHidden = true
             var tempString = "Here are your saved events to explore:\n"
             for event in savedEvents
             {
@@ -68,12 +73,25 @@ class resultViewController: UIViewController {
     
     @IBAction func yesButton(_ sender: Any) {
         print("In yes button")
+        statusLabel.isHidden = false
+        savedEvents.append(String(eventNameLabel.text!))
+        statusLabel.text = "This event has been saved"
+        if counter < events.eventList.count {
         let eventList = events.eventList.shuffled()
         setName(eventName: eventList[counter].eventName)
         setImage(imageName: eventList[counter].eventImageName)
         setDescription(eventDescription: eventList[counter].eventDescription)
         counter += 1
-        eventNameLabel.text = "This event has been saved"
+        } else {
+            noButton.isHidden = true
+            yesButton.isHidden = true
+            var tempString = "Here are your saved events to explore:\n"
+            for event in savedEvents
+            {
+                tempString += "\n\(event)"
+            }
+            eventDescriptionLabel.text = tempString
+        }
     }
     
     ///button to return to the option picker page
