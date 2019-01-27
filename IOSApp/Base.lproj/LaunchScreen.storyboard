@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="surprise_party.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ySy-6L-FHS">
-                                <rect key="frame" x="-266" y="0.0" width="425" height="896"/>
+                                <rect key="frame" x="-250" y="0.0" width="425" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
