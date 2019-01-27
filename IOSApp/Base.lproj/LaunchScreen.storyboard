@@ -53,10 +53,6 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="surprise_party.jpg" id="ai2-DS-FXQ">
-                    <rect key="frame" x="0.0" y="0.0" width="546" height="616"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
                 <visualEffectView opaque="NO" contentMode="scaleToFill" id="k9W-DT-Jhm">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="5"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
