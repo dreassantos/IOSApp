@@ -20,16 +20,32 @@ class resultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-            var yourImage: UIImage = UIImage(named: events.eventList[0].eventImageName)!
-           eventImage.image = yourImage
-        
-        eventNameLabel.text = events.eventList[0].eventName
-        eventDescriptionLabel.text = events.eventList[0].eventDescription
     }
     
+    func setName(eventName: String){
+        eventNameLabel.text = eventName
+    }
+    
+    func setImage (imageName: String) {
+        eventImage.image = UIImage(named: imageName)!
+    }
+    
+    func setDescription(eventDescription: String){
+        eventDescriptionLabel.text = eventDescription
+    }
+
+    ///button to return to the option picker page
     @IBAction func nextButton(_ sender: Any) {
          dismiss(animated: true, completion: nil)
     }
 
 }
+
+
+
+//Dreas junk code im working on
+//
+//events.eventList[0].eventName
+//events.eventList[0].eventDescription
+//        eventDescriptionLabel.text = events.eventList[0].eventDescription
+//}
