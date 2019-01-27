@@ -18,6 +18,8 @@ class resultViewController: UIViewController {
     
     let events = Events()
     
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -38,6 +40,8 @@ class resultViewController: UIViewController {
     @IBAction func nextButton(_ sender: Any) {
          dismiss(animated: true, completion: nil)
     }
+    
+    
 
 }
 

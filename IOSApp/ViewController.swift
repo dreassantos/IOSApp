@@ -15,12 +15,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    
+    let userOptions: [String : Bool] = ["cost$":true, "fun": false]
+    
     @IBAction func submitButton(_ sender: Any) {
         let vc = self.storyboard!.instantiateViewController(withIdentifier: "resultViewController")
         self.present(vc, animated: true, completion: nil)
         self.show(vc, sender: self)
     }
-}
     
+    
+}
 
 
