@@ -17,8 +17,7 @@ class resultViewController: UIViewController {
     
     
     let events = Events()
-    
-  
+    var counter = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,20 +35,24 @@ class resultViewController: UIViewController {
         eventDescriptionLabel.text = eventDescription
     }
 
-    ///button to return to the option picker page
-    @IBAction func nextButton(_ sender: Any) {
-         dismiss(animated: true, completion: nil)
+    
+    func nextButton() {
+        let eventList = events.eventList.shuffled()
+        if counter < eventList.count {
+            setName(eventName: eventList[counter].eventName)
+            setImage(imageName: eventList[counter].eventImageName)
+            setDescription(eventDescription: eventList[counter].eventDescription)
+               counter += 1
+        } else {
+            dismiss(animated: true, completion: nil)
+        }
     }
     
     
+    ///button to return to the option picker page
+    @IBAction func nextButton(_ sender: Any) {
+         dismiss(animated: true, completion: nil)
 
+    }
 }
 
-
-
-//Dreas junk code im working on
-//
-//events.eventList[0].eventName
-//events.eventList[0].eventDescription
-//        eventDescriptionLabel.text = events.eventList[0].eventDescription
-//}
