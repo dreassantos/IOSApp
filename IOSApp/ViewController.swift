@@ -11,12 +11,16 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var submitButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func submitButton(_ sender: Any) {
+        let vc = self.storyboard!.instantiateViewController(withIdentifier: "resultViewController")
+        self.present(vc, animated: true, completion: nil)
+        self.show(vc, sender: self)
+    }
 }
+    
+
 
