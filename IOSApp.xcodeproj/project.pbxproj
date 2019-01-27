@@ -15,6 +15,16 @@
 		652FBC3421FD6ED10022A8CF /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FBC3321FD6ED10022A8CF /* resultViewController.swift */; };
 		652FBC3621FD73D10022A8CF /* EventProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FBC3521FD73D10022A8CF /* EventProvider.swift */; };
 		652FBC3821FD75F00022A8CF /* park.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 652FBC3721FD75F00022A8CF /* park.jpeg */; };
+		6595CAEB21FDC21500604615 /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE121FDC21500604615 /* bar.jpg */; };
+		6595CAEC21FDC21500604615 /* PPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE221FDC21500604615 /* PPark.jpg */; };
+		6595CAED21FDC21500604615 /* HParty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE321FDC21500604615 /* HParty.jpg */; };
+		6595CAEE21FDC21500604615 /* Fair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE421FDC21500604615 /* Fair.jpg */; };
+		6595CAEF21FDC21500604615 /* run.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE521FDC21500604615 /* run.jpg */; };
+		6595CAF021FDC21500604615 /* bowl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE621FDC21500604615 /* bowl.jpg */; };
+		6595CAF121FDC21500604615 /* concert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE721FDC21500604615 /* concert.jpg */; };
+		6595CAF221FDC21500604615 /* fmarket.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE821FDC21500604615 /* fmarket.jpeg */; };
+		6595CAF321FDC21500604615 /* poetry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE921FDC21500604615 /* poetry.jpg */; };
+		6595CAF421FDC21500604615 /* MPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAEA21FDC21500604615 /* MPark.jpg */; };
 		BDE56A2421FD72EC0034BC52 /* surprise_party.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */; };
 		BDE56A2721FD795B0034BC52 /* friendspic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2621FD795B0034BC52 /* friendspic.jpg */; };
 		BDE56A2B21FD7AC60034BC52 /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2A21FD7AC60034BC52 /* city.jpg */; };
@@ -31,6 +41,16 @@
 		652FBC3321FD6ED10022A8CF /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		652FBC3521FD73D10022A8CF /* EventProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventProvider.swift; sourceTree = "<group>"; };
 		652FBC3721FD75F00022A8CF /* park.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = park.jpeg; sourceTree = "<group>"; };
+		6595CAE121FDC21500604615 /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar.jpg; sourceTree = "<group>"; };
+		6595CAE221FDC21500604615 /* PPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PPark.jpg; sourceTree = "<group>"; };
+		6595CAE321FDC21500604615 /* HParty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HParty.jpg; sourceTree = "<group>"; };
+		6595CAE421FDC21500604615 /* Fair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fair.jpg; sourceTree = "<group>"; };
+		6595CAE521FDC21500604615 /* run.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = run.jpg; sourceTree = "<group>"; };
+		6595CAE621FDC21500604615 /* bowl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bowl.jpg; sourceTree = "<group>"; };
+		6595CAE721FDC21500604615 /* concert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = concert.jpg; sourceTree = "<group>"; };
+		6595CAE821FDC21500604615 /* fmarket.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fmarket.jpeg; sourceTree = "<group>"; };
+		6595CAE921FDC21500604615 /* poetry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poetry.jpg; sourceTree = "<group>"; };
+		6595CAEA21FDC21500604615 /* MPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MPark.jpg; sourceTree = "<group>"; };
 		BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surprise_party.jpg; sourceTree = "<group>"; };
 		BDE56A2621FD795B0034BC52 /* friendspic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friendspic.jpg; sourceTree = "<group>"; };
 		BDE56A2A21FD7AC60034BC52 /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city.jpg; sourceTree = "<group>"; };
@@ -66,7 +86,6 @@
 		652FBC2021FD69B80022A8CF /* IOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				652FBC3721FD75F00022A8CF /* park.jpeg */,
 				652FBC2121FD69B80022A8CF /* AppDelegate.swift */,
 				652FBC2321FD69B80022A8CF /* ViewController.swift */,
 				652FBC2521FD69B80022A8CF /* Main.storyboard */,
@@ -75,7 +94,6 @@
 				652FBC2D21FD69B80022A8CF /* Info.plist */,
 				652FBC3321FD6ED10022A8CF /* resultViewController.swift */,
 				652FBC3521FD73D10022A8CF /* EventProvider.swift */,
-				BDE56A2621FD795B0034BC52 /* friendspic.jpg */,
 				BDE56A2521FD75730034BC52 /* images */,
 			);
 			path = IOSApp;
@@ -84,6 +102,18 @@
 		BDE56A2521FD75730034BC52 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				6595CAE121FDC21500604615 /* bar.jpg */,
+				6595CAE621FDC21500604615 /* bowl.jpg */,
+				6595CAE721FDC21500604615 /* concert.jpg */,
+				6595CAE421FDC21500604615 /* Fair.jpg */,
+				6595CAE821FDC21500604615 /* fmarket.jpeg */,
+				6595CAE321FDC21500604615 /* HParty.jpg */,
+				6595CAEA21FDC21500604615 /* MPark.jpg */,
+				6595CAE921FDC21500604615 /* poetry.jpg */,
+				6595CAE221FDC21500604615 /* PPark.jpg */,
+				6595CAE521FDC21500604615 /* run.jpg */,
+				652FBC3721FD75F00022A8CF /* park.jpeg */,
+				BDE56A2621FD795B0034BC52 /* friendspic.jpg */,
 				BDE56A2A21FD7AC60034BC52 /* city.jpg */,
 				BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */,
 			);
@@ -149,10 +179,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				652FBC2C21FD69B80022A8CF /* LaunchScreen.storyboard in Resources */,
+				6595CAF021FDC21500604615 /* bowl.jpg in Resources */,
+				6595CAEC21FDC21500604615 /* PPark.jpg in Resources */,
 				BDE56A2721FD795B0034BC52 /* friendspic.jpg in Resources */,
+				6595CAEF21FDC21500604615 /* run.jpg in Resources */,
 				BDE56A2421FD72EC0034BC52 /* surprise_party.jpg in Resources */,
+				6595CAEB21FDC21500604615 /* bar.jpg in Resources */,
+				6595CAEE21FDC21500604615 /* Fair.jpg in Resources */,
+				6595CAF121FDC21500604615 /* concert.jpg in Resources */,
+				6595CAED21FDC21500604615 /* HParty.jpg in Resources */,
 				652FBC2921FD69B80022A8CF /* Assets.xcassets in Resources */,
 				652FBC2721FD69B80022A8CF /* Main.storyboard in Resources */,
+				6595CAF421FDC21500604615 /* MPark.jpg in Resources */,
+				6595CAF321FDC21500604615 /* poetry.jpg in Resources */,
+				6595CAF221FDC21500604615 /* fmarket.jpeg in Resources */,
 				652FBC3821FD75F00022A8CF /* park.jpeg in Resources */,
 				BDE56A2B21FD7AC60034BC52 /* city.jpg in Resources */,
 			);

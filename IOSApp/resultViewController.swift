@@ -10,7 +10,7 @@ import UIKit
 
 class resultViewController: UIViewController {
 
- 
+    //connecting buttons
     @IBOutlet weak var noButton: UIButton!
     @IBOutlet weak var yesButton: UIButton!
     @IBOutlet weak var backButton: UIButton!
@@ -21,6 +21,7 @@ class resultViewController: UIViewController {
     
     let events = Events()
     var counter = 0
+    var savedEvents:[String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,15 +56,23 @@ class resultViewController: UIViewController {
             setDescription(eventDescription: eventList[counter].eventDescription)
             counter += 1
         } else {
-            dismiss(animated: true, completion: nil)
+            savedEvents.append(String(eventNameLabel.text!))
+            var tempString = "Here are your saved events to explore:\n"
+            for event in savedEvents
+            {
+                tempString += "\n\(event)"
+            }
+            eventDescriptionLabel.text = tempString
         }
     }
     
     @IBAction func yesButton(_ sender: Any) {
         print("In yes button")
-        noButton.isHidden = true
-        yesButton.isHidden = true
-        eventDescriptionLabel.isHidden = true
+        let eventList = events.eventList.shuffled()
+        setName(eventName: eventList[counter].eventName)
+        setImage(imageName: eventList[counter].eventImageName)
+        setDescription(eventDescription: eventList[counter].eventDescription)
+        counter += 1
         eventNameLabel.text = "This event has been saved"
     }
     
