@@ -52,36 +52,39 @@ class resultViewController: UIViewController {
     @IBAction func noButton(_ sender: Any) {
         print("In no button")
         let eventList = events.eventList
+        counter += 1
         if counter < eventList.count {
             setName(eventName: eventList[counter].eventName)
             setImage(imageName: eventList[counter].eventImageName)
             setDescription(eventDescription: eventList[counter].eventDescription)
-            counter += 1
             statusLabel.isHidden = true
         } else {
-            
+            var tempString = ""
             noButton.isHidden = true
             yesButton.isHidden = true
-            var tempString = "Here are your saved events to explore:\n"
+            if savedEvents.count == 0 {
+                tempString = "You decided not to take an Adventure and explore. ):"
+            }else{
+            tempString = "Here are your saved events to explore:\n"
             for event in savedEvents
             {
                 tempString += "\n\(event)"
-            }
+            }}
             eventDescriptionLabel.text = tempString
         }
     }
     
     @IBAction func yesButton(_ sender: Any) {
         print("In yes button")
+        counter += 1
         statusLabel.isHidden = false
         savedEvents.append(String(eventNameLabel.text!))
-        statusLabel.text = "This event has been saved"
+        statusLabel.text = "Previous event has been saved"
         if counter < events.eventList.count {
         let eventList = events.eventList
         setName(eventName: eventList[counter].eventName)
         setImage(imageName: eventList[counter].eventImageName)
         setDescription(eventDescription: eventList[counter].eventDescription)
-        counter += 1
         } else {
             noButton.isHidden = true
             yesButton.isHidden = true

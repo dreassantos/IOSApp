@@ -24,6 +24,7 @@
 		6595CAF221FDC21500604615 /* fmarket.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE821FDC21500604615 /* fmarket.jpeg */; };
 		6595CAF321FDC21500604615 /* poetry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAE921FDC21500604615 /* poetry.jpg */; };
 		6595CAF421FDC21500604615 /* MPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAEA21FDC21500604615 /* MPark.jpg */; };
+		6595CAF621FDDB8A00604615 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6595CAF521FDDB8A00604615 /* Icon-App-29x29@3x.png */; };
 		BDE56A2421FD72EC0034BC52 /* surprise_party.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */; };
 		BDE56A2B21FD7AC60034BC52 /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2A21FD7AC60034BC52 /* city.jpg */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		6595CAE821FDC21500604615 /* fmarket.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fmarket.jpeg; sourceTree = "<group>"; };
 		6595CAE921FDC21500604615 /* poetry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poetry.jpg; sourceTree = "<group>"; };
 		6595CAEA21FDC21500604615 /* MPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MPark.jpg; sourceTree = "<group>"; };
+		6595CAF521FDDB8A00604615 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
 		BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surprise_party.jpg; sourceTree = "<group>"; };
 		BDE56A2A21FD7AC60034BC52 /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +100,7 @@
 		BDE56A2521FD75730034BC52 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				6595CAF521FDDB8A00604615 /* Icon-App-29x29@3x.png */,
 				6595CAE121FDC21500604615 /* bar.jpg */,
 				6595CAE621FDC21500604615 /* bowl.jpg */,
 				6595CAE721FDC21500604615 /* concert.jpg */,
@@ -177,6 +180,7 @@
 				6595CAEC21FDC21500604615 /* PPark.jpg in Resources */,
 				6595CAEF21FDC21500604615 /* run.jpg in Resources */,
 				BDE56A2421FD72EC0034BC52 /* surprise_party.jpg in Resources */,
+				6595CAF621FDDB8A00604615 /* Icon-App-29x29@3x.png in Resources */,
 				6595CAEB21FDC21500604615 /* bar.jpg in Resources */,
 				6595CAEE21FDC21500604615 /* Fair.jpg in Resources */,
 				6595CAF121FDC21500604615 /* concert.jpg in Resources */,
