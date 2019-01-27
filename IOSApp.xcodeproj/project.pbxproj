@@ -15,7 +15,6 @@
 		652FBC3421FD6ED10022A8CF /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FBC3321FD6ED10022A8CF /* resultViewController.swift */; };
 		BDE56A2421FD72EC0034BC52 /* surprise_party.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */; };
 		BDE56A2721FD795B0034BC52 /* friendspic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2621FD795B0034BC52 /* friendspic.jpg */; };
-		BDE56A2921FD79680034BC52 /* friendspic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2821FD79670034BC52 /* friendspic.jpg */; };
 		BDE56A2B21FD7AC60034BC52 /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE56A2A21FD7AC60034BC52 /* city.jpg */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		652FBC3321FD6ED10022A8CF /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surprise_party.jpg; sourceTree = "<group>"; };
 		BDE56A2621FD795B0034BC52 /* friendspic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friendspic.jpg; sourceTree = "<group>"; };
-		BDE56A2821FD79670034BC52 /* friendspic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friendspic.jpg; sourceTree = "<group>"; };
 		BDE56A2A21FD7AC60034BC52 /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				BDE56A2A21FD7AC60034BC52 /* city.jpg */,
-				BDE56A2821FD79670034BC52 /* friendspic.jpg */,
 				BDE56A2321FD72EC0034BC52 /* surprise_party.jpg */,
 			);
 			path = images;
@@ -145,7 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE56A2921FD79680034BC52 /* friendspic.jpg in Resources */,
 				652FBC2C21FD69B80022A8CF /* LaunchScreen.storyboard in Resources */,
 				BDE56A2721FD795B0034BC52 /* friendspic.jpg in Resources */,
 				BDE56A2421FD72EC0034BC52 /* surprise_party.jpg in Resources */,
